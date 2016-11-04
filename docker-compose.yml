@@ -1,0 +1,7 @@
+postgres:
+  container_name: dev_postgres
+  image: postgres:9.4.2
+  ports:
+    - "5432:5432"
+  volumes:
+    - /Users/rafaeljesus/postgresql:/var/lib/postgresql/data
